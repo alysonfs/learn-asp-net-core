@@ -107,6 +107,9 @@ ClientBin
 ~$*
 *.dbmdl
 *.db
+*.db-shm
+*.db-wal
+
 Generated_Code #added for RIA/Silverlight projects
 
 # Backup & report files from converting an old project file to a newer
