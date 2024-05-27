@@ -12,7 +12,14 @@ Esta série de tutoriais explica as noções básicas sobre a criação de um ap
 - **Descrição**: Exemplo de aplicação Razor Pages.
 - **Tutorial**: [Introdução ao Razor Pages](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-5.0)
 
-1. **Clone o Repositório**
-   ```bash
-   git clone https://github.com/seu-usuario/aspnet-core-learning-path.git
-   cd aspnet-core-learning-path
+#### 1.2 Manter um Aplicativo MVC
+- **Diretório**: `mvc-app`
+- **Descrição**: Exemplo de aplicação MVC.
+- **Tutorial**: [Introdução ao MVC](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0)
+
+
+## Clone o Repositório
+```bash
+$ git clone https://github.com/seu-usuario/aspnet-core-learning-path.git
+$ cd aspnet-core-learning-path
+```
