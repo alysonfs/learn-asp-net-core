@@ -2,19 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      // Usar o IntelliSense para descobrir quais atributos existem para a depuração de C#
-      // Passe o mouse sobre a tela para ver a descrição dos atributos existentes
-      // Para obter mais informações, visite https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md.
-      "name": ".NET Core Launch (web)",
+      "name": "Web .NET Core",
       "type": "coreclr",
       "request": "launch",
-      "preLaunchTask": "build",
-      // Se tiver alterado as estruturas de destino, certifique-se de atualizar o caminho do programa.
+      "preLaunchTask": "build-web", // nome da tarefa correspondente no tasks.json
       "program": "${workspaceFolder}/RazorPagesMovie/bin/Debug/net8.0/RazorPagesMovie.dll",
       "args": [],
       "cwd": "${workspaceFolder}/RazorPagesMovie",
       "stopAtEntry": false,
-      // Habilitar a inicialização de um navegador da web quando o ASP.NET Core for iniciado. Para obter mais informações: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
       "serverReadyAction": {
         "action": "openExternally",
         "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
@@ -24,6 +19,26 @@
       },
       "sourceFileMap": {
         "/Views": "${workspaceFolder}/RazorPagesMovie/Views"
+      }
+    },
+    {
+      "name": "MVC .NET Core",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-mvc", // nome da tarefa correspondente no tasks.json
+      "program": "${workspaceFolder}/MvcMovie/bin/Debug/net8.0/MvcMovie.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/MvcMovie",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/MvcMovie/Views"
       }
     },
     {
