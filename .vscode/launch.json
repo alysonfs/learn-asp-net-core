@@ -59,6 +59,26 @@
       }
     },
     {
+      "name": "Todo API .NET Core",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-todoapi", // nome da tarefa correspondente no tasks.json
+      "program": "${workspaceFolder}/TodoApi/bin/Debug/net8.0/TodoApi.dll",
+      "args": [ "--launch-profile", "https" ],
+      "cwd": "${workspaceFolder}/TodoApi",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Controllers": "${workspaceFolder}/TodoApi/Controllers"
+      }
+    },
+    {
       "name": ".NET Core Attach",
       "type": "coreclr",
       "request": "attach"

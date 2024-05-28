@@ -22,6 +22,11 @@ Esta série de tutoriais explica as noções básicas sobre a criação de um ap
 - **Descrição**: Exemplo de aplicação Blazor.
 - **Tutorial**: [Introdução ao Blazor](https://docs.microsoft.com/pt-br/aspnet/core/blazor/?view=aspnetcore-5.0)
 
+### 2. APIs Web
+
+- **Diretório**: `web-api`
+- **Descrição**: Exemplo de API Web usando ASP.NET Core.
+- **Tutorial**: [Criar uma API Web](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0)
 
 ## Clone o Repositório
 ```bash
