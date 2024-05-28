@@ -42,6 +42,23 @@
       }
     },
     {
+      "name": "Blazor .NET Core",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-blazor", // nome da tarefa correspondente no tasks.json
+      "program": "${workspaceFolder}/BlazorApp/bin/Debug/net8.0/BlazorApp.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/BlazorApp",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    {
       "name": ".NET Core Attach",
       "type": "coreclr",
       "request": "attach"

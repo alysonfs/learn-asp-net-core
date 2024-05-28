@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{423AF660-C8C9-420A-84B3-5143786C710F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{544A4855-2F50-4463-B6A7-C786F2A8BCBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{423AF660-C8C9-420A-84B3-5143786C710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{423AF660-C8C9-420A-84B3-5143786C710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{423AF660-C8C9-420A-84B3-5143786C710F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544A4855-2F50-4463-B6A7-C786F2A8BCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544A4855-2F50-4463-B6A7-C786F2A8BCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544A4855-2F50-4463-B6A7-C786F2A8BCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544A4855-2F50-4463-B6A7-C786F2A8BCBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -13,9 +13,14 @@ Esta série de tutoriais explica as noções básicas sobre a criação de um ap
 - **Tutorial**: [Introdução ao Razor Pages](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-5.0)
 
 #### 1.2 Manter um Aplicativo MVC
-- **Diretório**: `mvc-app`
+- **Diretório**: `MvcMovie`
 - **Descrição**: Exemplo de aplicação MVC.
 - **Tutorial**: [Introdução ao MVC](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0)
+
+#### 1.3 Desenvolvimento de Interface do Usuário do Lado do Cliente
+- **Diretório**: `BlazorApp`
+- **Descrição**: Exemplo de aplicação Blazor.
+- **Tutorial**: [Introdução ao Blazor](https://docs.microsoft.com/pt-br/aspnet/core/blazor/?view=aspnetcore-5.0)
 
 
 ## Clone o Repositório
