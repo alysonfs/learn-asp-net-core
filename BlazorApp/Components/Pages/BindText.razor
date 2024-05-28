@@ -1,0 +1,17 @@
+@rendermode InteractiveServer
+
+<h1>Vincular texto</h1>
+
+<p>Este componente demonstra a vinculação de texto.</p>
+<input type="text" @bind="text"/>
+<button @onclick="Clear">Limpar</button>
+<p>Texto digitado: @text</p>
+
+@code {
+    private string text = "";
+
+    private void Clear()
+    {
+        text = string.Empty;
+    }
+}
