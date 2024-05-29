@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoSolution.Domain", "Todo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoSolution.Tests", "TodoSolution.Tests\TodoSolution.Tests.csproj", "{9C61E79E-F284-412B-B79A-E5E22129CD38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoSolution.Infra", "TodoSolution.Infra\TodoSolution.Infra.csproj", "{0F85CF8F-7FCD-44D5-962C-5F332B3016F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{9C61E79E-F284-412B-B79A-E5E22129CD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C61E79E-F284-412B-B79A-E5E22129CD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C61E79E-F284-412B-B79A-E5E22129CD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F85CF8F-7FCD-44D5-962C-5F332B3016F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F85CF8F-7FCD-44D5-962C-5F332B3016F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F85CF8F-7FCD-44D5-962C-5F332B3016F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F85CF8F-7FCD-44D5-962C-5F332B3016F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

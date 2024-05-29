@@ -17,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TodoSolution.Data\TodoSolution.Data.csproj" />
     <ProjectReference Include="..\TodoSolution.Domain\TodoSolution.Domain.csproj" />
+    <ProjectReference Include="..\TodoSolution.Infra\TodoSolution.Infra.csproj" />
   </ItemGroup>
   
   <ItemGroup>
