@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TodoSolution.Domain\TodoSolution.Domain.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
